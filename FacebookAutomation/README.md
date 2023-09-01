@@ -7,11 +7,19 @@ This project is for implementing Facebook scenairos by automation framework with
 **Used Tools:**
 
 - Java programming language.
-- TestNG annotations and test framework.
+- TestNG annotations and test framework
+  
+  _Used beforeMethod and afterTest for opening facebook and quit the browser after each test case_
 - Data driven framework using json file.
+  
+  _Used json file for signup data and read it by json reader in the locator method._
 - Selenium webdriver.
 - Firefox driver browser.
 - Page object model design pattern.
+  
+  _Separate the locators in the main source which contains the locators and its action._
+  
+  _Separate the test cases at the test source which contains the test and the assertion for this test case._
 
 **Test Cases Applied:**
 
