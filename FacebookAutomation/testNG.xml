@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression" parallel="none" preserve-order="true">
+    <test name="RegistrationCases">
+        <classes>
+           <class name="CreateAccountTestCases.VerifyCreateAccountWithValidData" />
+            <class name="CreateAccountTestCases.CheckCreateAccountWithInvalidData"/>
+        </classes>
+    </test>
+    <test name="LoginCases">
+        <classes>
+            <class name="LoginTestCases.VerifyLoginWithValidData" />
+            <class name="LoginTestCases.CheckLoginWithInvalidData"/>
+
+        </classes>
+    </test>
+</suite>
